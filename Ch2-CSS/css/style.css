@@ -1,0 +1,133 @@
+body {
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font: noraml 16px Arial,Helvetica,sans-serif;
+
+}
+
+
+.box1 {
+    background-color: antiquewhite;
+    color: royalblue;
+
+    border: 5px cyan solid;
+    border-right: 10px green dotted;
+    border-bottom: 1px firebrick double;
+    border-top: 8px blueviolet dashed;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.box1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: lem;
+    word-spacing: 2em;
+}
+
+.box2 {
+    border: 5px dotted #cccccc;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+}
+
+.box2 h1 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+button:hover{
+    background-color: red;
+}
+
+button:active {
+    background-color: antiquewhite;
+}
+button {
+    background-color: #444444;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #555555;
+}
+
+a:hover {
+    color: cyan;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+.list li {
+    /* list-style-image: url('../img/pics.jpg') ; */
+    list-style: circle;
+    
+}
+.box2 h1 {
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#side-block {
+    float: left;
+    width: 30%;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.list2 li:nth-child(even){
+    background-color: grey;
+}
+.list2 li:first-child {
+    background-color: red;
+}
+.list2 li:nth-child(3) {
+    background-color: aqua;
+}
+
+#fixed {
+    position: fixed;
+    right: 0;
+    bottom: 200px;
+}
