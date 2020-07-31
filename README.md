@@ -12,5 +12,9 @@ Including html5, css, JavaScript and other common frame
 * [Demo](https://gisyaliny.github.io/web-developing/Ch2-CSS/index.html)
 
 ### Ch3-JavaScript
-* 
-* [Demo]()
+* [Basic knowledge of JavaScript](https://gisyaliny.github.io/web-developing/Ch3-JavaScript/my-JavaScript.html)
+* [Demo](https://gisyaliny.github.io/web-developing/Ch3-JavaScript/index.html)
+
+### Ch4-DOM
+* [Basic usage of DOM](https://gisyaliny.github.io/web-developing/CH4-DOM/JS-DOM.html)
+* [Demo](https://gisyaliny.github.io/web-developing/CH4-DOM/index.html)
